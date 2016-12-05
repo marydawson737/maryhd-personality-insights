@@ -1,0 +1,10 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: maryhd personality insights
+  host: maryhd-personality-insights
+  disk_quota: 1024M
+  services:
+  - maryhd personality insights-personality_insights
